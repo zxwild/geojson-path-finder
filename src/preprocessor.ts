@@ -1,11 +1,11 @@
 import distance from "@turf/distance";
-import { FeatureCollection, LineString, point, Position } from "@turf/helpers";
+import { point, FeatureCollection, LineString } from "@turf/helpers";
+import { Position } from "geojson";
 import type {
   PathFinderGraph,
   PathFinderOptions,
   Edge,
   Key,
-  Vertices,
 } from "./types";
 import compactGraph from "./compactor";
 import createTopology from "./topology";

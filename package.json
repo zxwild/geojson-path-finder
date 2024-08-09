@@ -27,6 +27,7 @@
     "tinyqueue": "^2.0.3"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.14",
     "@tsconfig/node16": "^1.0.3",
     "@types/node": "^18.11.7",
     "esm": "^3.2.25",
